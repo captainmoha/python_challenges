@@ -32,7 +32,7 @@ def findAns():
 # findAns terminates with an attribute error meaning that it has found a file that has no number (no nothing)
 # inspecting the file that caused the error resulted in find the following text : "Collect the comments"
 # hmm I need to think differently
-# after some thinking and reading I think I can get the comments with the help of zipfil module let's do that.
+# after some thinking and reading I think I can get the comments with the help of zipfile module let's do that.
 
 def findAns2():
 	channelZip = zipfile.ZipFile('channel.zip')
