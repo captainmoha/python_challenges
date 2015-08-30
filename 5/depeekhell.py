@@ -6,6 +6,7 @@ def dePeekHell():
     result = pickle.load(inputFile)
     outputFile = open("output.py", 'w')
     outputFile.write(str(result))
+    outputFile.close()l
 
 
 dePeekHell()
